@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.5;
+  background-color: #2B2B2B;
+}
+
+
+
+
+.navigation {
+    margin-top: 20px;
+    display: flex;
+
+    justify-content: center;
+}
+
+.navlogo {
+    display: flex;
+    flex-grow: 0;
+    order: 0;
+    align-items: center;
+
+    margin-right: 600px;
+}
+
+.navlogo div {
+    color: white;
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+
+
+
+.navmenu {
+    display: flex;
+    flex-grow: 0;
+    order: 0;
+
+    align-items: center;
+    
+}
+
+.navmenu p a { 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.navmenu p {
+    margin-right: 40px;
+
+    transition: 0.5s;
+}
+
+.navmenu p:last-child {
+    margin-right: 0px;
+}
+
+.navmenu p:hover {
+    transform: translateY(-3px);
+}
+
+.btn {
+    align-items: center;
+    padding: 10px 20px 10px 10px;
+    background-color: #A259FF;
+    border-radius: 13px;
+
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transform: scale(0.92);
+}
+
+.btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn a div {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+
+.btn a img {
+    transform: translateY(2px);
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+.herosrction {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.herotextbtn {
+    margin-right: 170px;
+}
+
+.headline {
+
+    margin-bottom: 20px;
+}
+
+.text1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+
+.text2 {
+    color: #b5b5b5;
+    font-size: 15px;
+    line-height: 30px;
+
+
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.btn2 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 10px;
+    background-color: #9747FF;
+    border-radius: 15px;
+
+    transition: 0.5s;
+}
+
+.btn2 a img {
+    margin-right: 7px;
+}
+
+.btn2 a div {
+    align-items: center;
+}
+
+.btn2 a:hover {
+    transform: scale(0.9);
+}
+
+.additionalinfo {
+    display: flex;
+}
+
+.additionalinfo div {
+    margin-right: 80px;
+    color: white;
+    font-size: 15px;
+}
+
+.additionalinfo div:last-child {
+    margin-right: 0px;
+}
+
+
+
+.totalsale span {
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.auctions span {
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.artists span {
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+.highlighted {
+    animation: pulse 4s ease-in-out infinite;
+    transition: 0.5s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+
+.post {
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+
+    width: 510px;
+    height: 109px;
+
+    /* Background - Secondary */
+
+    background: #3B3B3B;
+    border-radius: 0px 0px 20px 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+    margin-top: -10px;
+
+}
+
+
+
+.post .namepost {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.post .author {
+    display: flex;
+}
+
+.post .author .nameauth {
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
